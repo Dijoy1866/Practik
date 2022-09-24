@@ -50,7 +50,7 @@ symbols = random.choices(ascii_lowercase, k)  # Сгенерировали 5 р�
 done_str = ''.join(symbols)(all,k)
 print(done_str)
 
-# ЗАДАНИЕ 4
+# ЗАДАНИЕ 3
 
 count = int(input('Веди число'))
 f1 = f2 = 1
@@ -60,6 +60,7 @@ while i < count:
     f1,f2=f2,f1+f2
     print(f2,end = ' ' )
     i+=1
+    
 print()
 
 
